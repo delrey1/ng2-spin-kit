@@ -1,24 +1,17 @@
 # Ng2SpinKit2
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.0.
+## Background
 
-## Code scaffolding
+Based on https://github.com/AndersTornkvist/ng-spin-kit/tree/angular10and11
 
-Run `ng generate component component-name --project ng2-spin-kit2` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng2-spin-kit2`.
-> Note: Don't forget to add `--project ng2-spin-kit2` or else it will be added to the default project in your `angular.json` file. 
+Currently only has Sk-wave Implemented
 
-## Build
+## Versions
 
-Run `ng build ng2-spin-kit2` to build the project. The build artifacts will be stored in the `dist/` directory.
+Major Versions tie with Angular Version.
 
-## Publishing
+e.g. 10.x.x is for Angular 10
 
-After building your library with `ng build ng2-spin-kit2`, go to the dist folder `cd dist/ng2-spin-kit2` and run `npm publish`.
+## Contributions
 
-## Running unit tests
-
-Run `ng test ng2-spin-kit2` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Please create PRs for any changes, or suggestions
