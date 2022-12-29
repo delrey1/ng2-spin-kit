@@ -20,7 +20,7 @@ jobs:
       - run: yarn
       - run: yarn build ng2-spin-kit2
 #      - run: yarn version --new-version "${GITHUB_REF:11}" --no-git-tag-version
-      - run yarn version --new-version 10.0.4
+      - run: yarn version --new-version 10.0.4
       - run: cd dist/ng2-spin-kit2 && yarn publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
