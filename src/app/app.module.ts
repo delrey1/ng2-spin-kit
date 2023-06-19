@@ -2,16 +2,15 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent} from './app.component';
-import {WaveComponent} from "ng2-spin-kit2";
+import {Ng2SpinKit2Module} from "../../projects/ng2-spin-kit2/src/lib/ng2-spin-kit2.module";
 
 @NgModule({
   declarations: [
     AppComponent,
-    WaveComponent
   ],
   imports: [
     BrowserModule,
-    // Ng2SpinKit2Module
+    Ng2SpinKit2Module
   ],
   providers: [],
   bootstrap: [AppComponent]
