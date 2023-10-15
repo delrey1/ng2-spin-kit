@@ -1,4 +1,4 @@
-import {Component, Input, OnDestroy} from '@angular/core';
+import { Component, Input, OnDestroy } from '@angular/core';
 
 @Component({
   // moduleId: module.id,
@@ -15,7 +15,7 @@ import {Component, Input, OnDestroy} from '@angular/core';
             width: 5px;
             height: 100%;
             background-color: #333;
-            /*margin-right: 1px;*/
+          margin-right: 1px;
             -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
             animation: sk-stretchdelay 1.2s infinite ease-in-out;
         }
